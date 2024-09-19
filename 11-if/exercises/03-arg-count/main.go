@@ -30,4 +30,12 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+
+	args := os.Args[1:]
+	if len(args) == 0 {
+        fmt.Println("Give me args")
+        return
+    } if len(args) == 1 {
+		
+	}
 }
